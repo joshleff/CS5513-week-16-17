@@ -48,7 +48,7 @@ const Tab1: React.FC = () => {
                               class="ion-float-start ion-margin"
                           ></IonImg>
 
-                          <div class="ion-margin"><h2>{item.product_name}</h2></div>
+                          <div className="ion-margin"><h2>{item.product_name}</h2></div>
                           <div className="ion-margin"><p>{item.price}</p></div>
                           <div className="ion-margin"><p>{item.description}</p></div>
                       </IonLabel>
